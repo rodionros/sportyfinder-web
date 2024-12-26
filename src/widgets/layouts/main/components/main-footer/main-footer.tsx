@@ -23,7 +23,7 @@ export const MainFooter = () => {
           <FooterLink href="/privacy">{t('FOOTER_PRIVACY')}</FooterLink>
         </li>
         <li>
-          <FooterLink $email href="mailto:support@sportyfinder.ru" target="_blank">
+          <FooterLink href="mailto:support@sportyfinder.ru" is_email="true" target="_blank">
             support@sportyfinder.ru
           </FooterLink>
         </li>

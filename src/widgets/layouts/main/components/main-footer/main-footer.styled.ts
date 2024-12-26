@@ -1,8 +1,7 @@
-import Link from 'next/link';
-import { Box } from '@effable/react';
 import styled from '@emotion/styled';
 import Sportyfinder from 'public/static/images/logo-desktop-white.svg';
 
+import { StyledLink } from '@/shared/components/styled-link/styled-link.styled';
 import { breakpoints } from '@/shared/design/media';
 import { variants } from '@/shared/design/tokens/typography';
 
@@ -44,9 +43,9 @@ export const FooterLogo = styled(Sportyfinder)({
   },
 });
 
-export const FooterLink = styled(Link)<{ $email?: boolean; $lang?: boolean }>((props) => ({
+export const FooterLink = styled(StyledLink)<{ $lang?: boolean; is_email?: string }>((props) => ({
   ...variants.base_adaptive,
-  color: props.$email ? '#833FDC' : '#fff',
+  color: props.is_email === 'true' ? '#833FDC' : '#fff',
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     ...variants.base_mobile,
