@@ -5,6 +5,8 @@ export const IconButton = styled.button({
   minHeight: '36px',
   border: 'none',
   borderRadius: '100px',
-  padding: '11px 11px',
+  padding: '0',
   cursor: 'pointer',
+  objectFit: 'contain',
+  objectPosition: 'center',
 });

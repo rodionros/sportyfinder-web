@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import { Box } from '@effable/react';
 import styled from '@emotion/styled';
+import Sportyfinder from 'public/static/images/logo-desktop-white.svg';
 
+import { breakpoints } from '@/shared/design/media';
 import { variants } from '@/shared/design/tokens/typography';
 
 export const Footer = styled.footer({
@@ -13,12 +15,12 @@ export const Footer = styled.footer({
   alignItems: 'center',
   margin: '0 auto 60px',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '688px',
     justifyContent: 'start',
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '196px',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -26,17 +28,17 @@ export const Footer = styled.footer({
   },
 });
 
-export const FooterLogo = styled(Box)({
+export const FooterLogo = styled(Sportyfinder)({
   width: '100%',
   maxWidth: '211px',
   marginRight: '372px',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '185px',
     marginRight: '122px',
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     marginRight: '0',
     marginBottom: '32px',
   },
@@ -46,17 +48,8 @@ export const FooterLink = styled(Link)<{ $email?: boolean; $lang?: boolean }>((p
   ...variants.base_adaptive,
   color: props.$email ? '#833FDC' : '#fff',
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     ...variants.base_mobile,
     fontSize: props.$lang ? '24px' : 'inherit',
   },
 }));
-
-export const FooterIcon = styled(Box)({
-  width: '100%',
-  maxWidth: '39px',
-
-  '@media (max-width: 375px)': {
-    maxWidth: '44px',
-  },
-});

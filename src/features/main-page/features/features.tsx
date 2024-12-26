@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { StaticImageData } from 'next/image';
 import { useTranslation } from 'next-i18next';
-import feature1 from 'public/static/images/feature-1.png';
-import feature2 from 'public/static/images/feature-2.png';
-import feature3 from 'public/static/images/feature-3.png';
-import feature4 from 'public/static/images/feature-4.png';
+import feature1 from 'public/static/images/feature-1.webp';
+import feature2 from 'public/static/images/feature-2.webp';
+import feature3 from 'public/static/images/feature-3.webp';
+import feature4 from 'public/static/images/feature-4.webp';
 
 import {
   FeaturesHeading,

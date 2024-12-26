@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { useTranslation } from 'next-i18next';
-import Sportyfinder from 'public/static/images/logo-desktop-white.svg';
 import Tg from 'public/static/images/tg-desk-white.svg';
 import Vk from 'public/static/images/vk-desk-white.svg';
 
-import { Footer, FooterLink } from '@/layouts/main/components/main-footer/main-footer.styled';
+import { Footer, FooterLink, FooterLogo } from '@/layouts/main/components/main-footer/main-footer.styled';
 
 import { LocaleToggler } from '@/features/locale-toggler';
 
@@ -15,7 +14,7 @@ export const MainFooter = () => {
 
   return (
     <Footer>
-      <Sportyfinder />
+      <FooterLogo />
 
       <LocaleToggler />
 
@@ -24,7 +23,7 @@ export const MainFooter = () => {
           <FooterLink href="/privacy">{t('FOOTER_PRIVACY')}</FooterLink>
         </li>
         <li>
-          <FooterLink $email href="mailto:support@sportyfinder.ru">
+          <FooterLink $email href="mailto:support@sportyfinder.ru" target="_blank">
             support@sportyfinder.ru
           </FooterLink>
         </li>
@@ -32,12 +31,12 @@ export const MainFooter = () => {
 
       <FooterLinksList $row $icons>
         <li>
-          <FooterLink href="">
+          <FooterLink href="https://t.me/sportyfinder" target="_blank">
             <Tg />
           </FooterLink>
         </li>
         <li>
-          <FooterLink href="">
+          <FooterLink href="https://vk.com/sportyfinder" target="_blank">
             <Vk />
           </FooterLink>
         </li>
