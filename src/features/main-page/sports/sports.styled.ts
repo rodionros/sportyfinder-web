@@ -158,6 +158,7 @@ export const TagsList = styled(StyledList)({
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     marginTop: '24px',
+    gap: '8px',
   },
 });
 
