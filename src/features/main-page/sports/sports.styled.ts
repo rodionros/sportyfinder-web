@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import Logo from 'public/static/images/S-desktop-white.svg';
-import Skateboard from 'public/static/images/sports-2.png';
+import Skateboard from 'public/static/images/sports-2.webp';
 
 import { StyledImage } from '@/shared/components/styled-image/styled-image.styled';
 import { StyledList } from '@/shared/components/styled-list/styled-list.styled';

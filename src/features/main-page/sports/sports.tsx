@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { useTranslation } from 'next-i18next';
-import AppGallery from 'public/static/images/AppGallery.png';
-import AppStore from 'public/static/images/AppStore.png';
-import GooglePlay from 'public/static/images/GooglePlay.png';
-import skateboard1 from 'public/static/images/sports-1.png';
-import basketball from 'public/static/images/sports-3.png';
+import AppGallery from 'public/static/images/AppGallery.webp';
+import AppStore from 'public/static/images/AppStore.webp';
+import GooglePlay from 'public/static/images/GooglePlay.webp';
+import skateboard1 from 'public/static/images/sports-1.webp';
+import basketball from 'public/static/images/sports-3.webp';
 
 import { sportsTags } from '@/features/main-page/sports/sports.const';
 import {

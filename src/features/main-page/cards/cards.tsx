@@ -2,14 +2,14 @@ import * as React from 'react';
 import { useRef } from 'react';
 import { useScroll } from 'framer-motion';
 import { useTranslation } from 'next-i18next';
-import InfoImageMobile1 from 'public/static/images/info-1-mobile.png';
-import InfoImage1 from 'public/static/images/info-1.png';
-import InfoImageMobile2 from 'public/static/images/info-2-mobile.png';
-import InfoImage2 from 'public/static/images/info-2.png';
-import InfoImageMobile3 from 'public/static/images/info-3-mobile.png';
-import InfoImage3 from 'public/static/images/info-3.png';
-import InfoImageMobile4 from 'public/static/images/info-4-mobile.png';
-import InfoImage4 from 'public/static/images/info-4.png';
+import InfoImageMobile1 from 'public/static/images/info-1-mobile.webp';
+import InfoImage1 from 'public/static/images/info-1.webp';
+import InfoImageMobile2 from 'public/static/images/info-2-mobile.webp';
+import InfoImage2 from 'public/static/images/info-2.webp';
+import InfoImageMobile3 from 'public/static/images/info-3-mobile.webp';
+import InfoImage3 from 'public/static/images/info-3.webp';
+import InfoImageMobile4 from 'public/static/images/info-4-mobile.webp';
+import InfoImage4 from 'public/static/images/info-4.webp';
 
 import { ImagesProps } from '@/pages/index.page';
 

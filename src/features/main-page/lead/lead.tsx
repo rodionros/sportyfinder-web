@@ -1,6 +1,6 @@
 import * as React from 'react';
-import leadMobile from '@/public/static/images/Main screen mobile.png';
-import lead from '@/public/static/images/Main screen.png';
+import leadMobile from '@/public/static/images/Main screen mobile.webp';
+import lead from '@/public/static/images/Main screen.webp';
 
 import { ImagesProps } from '@/pages/index.page';
 

@@ -23,7 +23,7 @@ export const MainFooter = () => {
           <FooterLink href="/privacy">{t('FOOTER_PRIVACY')}</FooterLink>
         </li>
         <li>
-          <FooterLink $email href="mailto:support@sportyfinder.ru">
+          <FooterLink $email href="mailto:support@sportyfinder.ru" target="_blank">
             support@sportyfinder.ru
           </FooterLink>
         </li>
@@ -31,12 +31,12 @@ export const MainFooter = () => {
 
       <FooterLinksList $row $icons>
         <li>
-          <FooterLink href="">
+          <FooterLink href="https://t.me/sportyfinder" target="_blank">
             <Tg />
           </FooterLink>
         </li>
         <li>
-          <FooterLink href="">
+          <FooterLink href="https://vk.com/sportyfinder" target="_blank">
             <Vk />
           </FooterLink>
         </li>
