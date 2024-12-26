@@ -1,42 +1,77 @@
 import * as React from 'react';
-import { capitalize } from '@effable/misc';
-import { Box, Container, DisplayOnBrowserMount, SkipNavLink, Stack, Text } from '@effable/react';
+import { useState } from 'react';
+import { useTranslation } from 'next-i18next';
+import Logo from 'public/static/images/S-desktop-white.svg';
 
-import { LocaleToggler } from '@/features/locale-toggler';
-import { ChangeTheme } from '@/features/new-main-page/change-theme';
+import {
+  Header,
+  HeaderListItem,
+  HeaderLogo,
+  HeaderNavDesktop,
+  MenuButton,
+  MobileList,
+  MobileListItem,
+  MobileMenu,
+  StyledContainer,
+  ThemeButton,
+} from '@/layouts/main/components/main-header/main-header.styled';
 
-import { APP_TITLE } from '@/shared/lib/meta';
+import { StyledLink } from '@/shared/components/styled-link/styled-link.styled';
+import { StyledList } from '@/shared/components/styled-list/styled-list.styled';
 
-export const MainHeader = () => {
+interface HeaderProps {
+  isMobile: boolean;
+}
+
+export const MainHeader = (props: HeaderProps) => {
+  const { t } = useTranslation('common');
+  const { isMobile } = props;
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
+  const handleThemeButtonClick = () => {};
+  const handleMenuButtonClick = () => {
+    setMenuIsOpen(!menuIsOpen);
+  };
+
   return (
-    <>
-      <SkipNavLink />
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        width="100%"
-        height={72}
-        borderBottom="1px solid"
-        borderColor="accent.accent5"
-        backgroundColor="accent.accent3"
-      >
-        <Container>
-          <Box display="flex" paddingY="26px" justifyContent="space-between" alignItems="center">
-            <Text variant="l" color="text.primary">
-              {capitalize(APP_TITLE)}
-            </Text>
+    <Header>
+      <HeaderLogo src={Logo} unoptimized alt="Sportyfinder logo" />
 
-            <DisplayOnBrowserMount>
-              <Stack direction="row" space="4x">
-                <ChangeTheme />
+      <StyledContainer>
+        <HeaderNavDesktop>
+          <StyledList>
+            <HeaderListItem $header>
+              <StyledLink href="#about">{t('HEADER_ABOUT')}</StyledLink>
+            </HeaderListItem>
+            <HeaderListItem $header>
+              <StyledLink href="#how-it-works">{t('HEADER_HOW-IT-WORKS')}</StyledLink>
+            </HeaderListItem>
+            <HeaderListItem $header>
+              <StyledLink href="#app">{t('HEADER_APP')}</StyledLink>
+            </HeaderListItem>
+          </StyledList>
+        </HeaderNavDesktop>
 
-                <LocaleToggler />
-              </Stack>
-            </DisplayOnBrowserMount>
-          </Box>
-        </Container>
-      </Box>
-    </>
+        <ThemeButton type="button" onClick={handleThemeButtonClick} />
+        {isMobile ? <MenuButton type="button" onClick={handleMenuButtonClick} /> : null}
+      </StyledContainer>
+
+      {isMobile && menuIsOpen && (
+        <MobileMenu>
+          <nav>
+            <MobileList>
+              <MobileListItem $header>
+                <StyledLink href="#about">{t('HEADER_ABOUT')}</StyledLink>
+              </MobileListItem>
+              <MobileListItem $header>
+                <StyledLink href="#how-it-works">{t('HEADER_HOW-IT-WORKS')}</StyledLink>
+              </MobileListItem>
+              <MobileListItem $header>
+                <StyledLink href="#app">{t('HEADER_APP')}</StyledLink>
+              </MobileListItem>
+            </MobileList>
+          </nav>
+        </MobileMenu>
+      )}
+    </Header>
   );
 };

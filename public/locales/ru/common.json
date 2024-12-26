@@ -1,4 +1,10 @@
 {
+  "HEADER_ABOUT": "о нас",
+  "HEADER_HOW-IT-WORKS": "как работает",
+  "HEADER_APP": "скачать приложение",
+
+  "FOOTER_PRIVACY": "конфиденциальность",
+
   "LAST_UPDATE": "Обновлено",
   "COOKIE_CONSENT_TITLE": "Этот сайт использует <0>куки</0> для улучшения пользовательского опыта.",
   "COOKIE_CONSENT_ACTION": "Хорошо!",

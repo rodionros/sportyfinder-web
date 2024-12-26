@@ -1,0 +1,107 @@
+{
+  "SEO_TITLE": "User Agreement",
+  "SEO_Description": "Sportyfinder. User Agreement",
+
+  "AGREEMENT_TITLE": "User Agreement",
+  "AGREEMENT_DESCRIPTION1": "This User Agreement (hereinafter referred to as the Agreement) regulates the relationship between LLC 'SPORTYFINDER' (hereinafter referred to as Sportyfinder or Administration) on one side and the user of the website on the other. The Sportyfinder website is not a mass media outlet.",
+  "AGREEMENT_DESCRIPTION2": "By using the website, you agree to the terms of this Agreement.",
+  "AGREEMENT_DESCRIPTION-BOLD": " If you do not agree with the terms of this Agreement, do not use the Sportyfinder website!",
+
+  "AGREEMENT_DATA": [
+    {
+      "heading": "Rights and Obligations of the Parties",
+      "pointedWithDashed": [
+        [
+          "The User has the right to:",
+          "Search for information on the website",
+          "Access information on the website",
+          "Create information for the website",
+          "Distribute information on the website",
+          "Comment on content posted on the website",
+          "Request the administration to hide any information about the user",
+          "Use the information on the website for personal non-commercial purposes",
+          "Use the information on the website for commercial purposes with the Administration's permission",
+          "Use the information on the website for commercial purposes with the permission of the rights holders",
+          "Use the information on the website for commercial purposes without special permission"
+        ],
+        [
+          "The Administration has the right to:",
+          "Create, change, or cancel rules at its discretion and as necessary",
+          "Limit access to any information on the website",
+          "Create, modify, or delete information",
+          "Delete user accounts",
+          "Refuse registration without explanation"
+        ],
+        [
+          "The User undertakes to:",
+          "Ensure the accuracy of the information provided",
+          "Ensure the security of personal data from third-party access",
+          "Update personal data provided during registration if changes occur",
+          "Not disrupt the functionality of the website",
+          "Not use scripts (programs) for automated data collection and/or interaction with the Website and its Services"
+        ],
+        [
+          "The Administration undertakes to:",
+          "Maintain the functionality of the website, except in cases where it is impossible due to reasons beyond the Administration's control."
+        ]
+      ]
+    },
+    {
+      "heading": "Liability of the Parties",
+      "pointedList": [
+        "The user is personally fully responsible for the information they distribute",
+        "The administration is not responsible for the accuracy of information copied from other sources",
+        "The administration is not responsible for the discrepancy between the services expected by the user and the services actually provided",
+        "The administration is not responsible for services provided by third parties",
+        "In the event of a force majeure situation (such as military actions, a state of emergency, natural disasters, etc.), the administration does not guarantee the preservation of information posted by the user or the uninterrupted operation of the information resource."
+      ]
+    },
+    {
+      "heading": "Terms of Agreement",
+      "description": "This Agreement comes into effect upon any use of this website. The Agreement ceases to be valid upon the release of a new version. The administration reserves the right to unilaterally modify this Agreement at its discretion. The administration is not required to notify users about changes to the Agreement."
+    }
+  ],
+
+  "AGREEMENT_RIGHTS_HEADING": "Rights and Obligations of the Parties",
+
+  "AGREEMENT_RIGHTS_D-LIST1_HEADING": "The User has the right to:",
+  "AGREEMENT_RIGHTS_D-LIST1_1": "Search for information on the website",
+  "AGREEMENT_RIGHTS_D-LIST1_2": "Access information on the website",
+  "AGREEMENT_RIGHTS_D-LIST1_3": "Create information for the website",
+  "AGREEMENT_RIGHTS_D-LIST1_4": "Distribute information on the website",
+  "AGREEMENT_RIGHTS_D-LIST1_5": "Comment on content posted on the website",
+  "AGREEMENT_RIGHTS_D-LIST1_6": "Request the administration to hide any information about the user",
+  "AGREEMENT_RIGHTS_D-LIST1_7": "Use the information on the website for personal non-commercial purposes",
+  "AGREEMENT_RIGHTS_D-LIST1_8": "Use the information on the website for commercial purposes with the Administration's permission",
+  "AGREEMENT_RIGHTS_D-LIST1_9":  "Use the information on the website for commercial purposes with the permission of the rights holders",
+  "AGREEMENT_RIGHTS_D-LIST1_10": "Use the information on the website for commercial purposes without special permission",
+
+  "AGREEMENT_RIGHTS_D-LIST2_HEADING": "The Administration has the right to:",
+  "AGREEMENT_RIGHTS_D-LIST2_1": "Create, change, or cancel rules at its discretion and as necessary",
+  "AGREEMENT_RIGHTS_D-LIST2_2": "Limit access to any information on the website",
+  "AGREEMENT_RIGHTS_D-LIST2_3": "Create, modify, or delete information",
+  "AGREEMENT_RIGHTS_D-LIST2_4": "Delete user accounts",
+  "AGREEMENT_RIGHTS_D-LIST2_5": "Refuse registration without explanation",
+
+  "AGREEMENT_RIGHTS_D-LIST3_HEADING": "The User undertakes to:",
+  "AGREEMENT_RIGHTS_D-LIST3_1": "Ensure the accuracy of the information provided",
+  "AGREEMENT_RIGHTS_D-LIST3_2": "Ensure the security of personal data from third-party access",
+  "AGREEMENT_RIGHTS_D-LIST3_3": "Update personal data provided during registration if changes occur",
+  "AGREEMENT_RIGHTS_D-LIST3_4": "Not disrupt the functionality of the website",
+  "AGREEMENT_RIGHTS_D-LIST3_5": "Not use scripts (programs) for automated data collection and/or interaction with the Website and its Services",
+
+  "AGREEMENT_RIGHTS_D-LIST4_HEADING": "The Administration undertakes to:",
+  "AGREEMENT_RIGHTS_D-LIST4_1": "Maintain the functionality of the website, except in cases where it is impossible due to reasons beyond the Administration's control.",
+
+  "AGREEMENT_LIABILITY_HEADING": "Liability of the Parties",
+
+  "AGREEMENT_LIABILITY_P-LIST_1": "The user is personally fully responsible for the information they distribute",
+  "AGREEMENT_LIABILITY_P-LIST_2": "The administration is not responsible for the accuracy of information copied from other sources",
+  "AGREEMENT_LIABILITY_P-LIST_3": "The administration is not responsible for the discrepancy between the services expected by the user and the services actually provided",
+  "AGREEMENT_LIABILITY_P-LIST_4": "The administration is not responsible for services provided by third parties",
+  "AGREEMENT_LIABILITY_P-LIST_5": "In the event of a force majeure situation (such as military actions, a state of emergency, natural disasters, etc.), the administration does not guarantee the preservation of information posted by the user or the uninterrupted operation of the information resource.",
+
+
+  "AGREEMENT_TERMS_HEADING": "Terms of Agreement",
+  "AGREEMENT_TERMS_DESCRIPTION": "This Agreement comes into effect upon any use of this website. The Agreement ceases to be valid upon the release of a new version. The administration reserves the right to unilaterally modify this Agreement at its discretion. The administration is not required to notify users about changes to the Agreement."
+}

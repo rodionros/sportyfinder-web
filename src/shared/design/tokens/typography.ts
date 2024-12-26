@@ -4,7 +4,7 @@ import deepmerge from 'deepmerge';
 import { responsiveProperty } from '../lib/responsive-property';
 
 export const defaultFontFamily =
-  'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif';
+  'FuturaPT, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif';
 
 export const fontWeight = {
   light: 300,
@@ -82,75 +82,99 @@ const buildResponsiveVariant = (options: ResponsiveVariantOptions): React.CSSPro
   };
 };
 
-export const headings = {
-  h1: buildResponsiveVariant({
-    weight: fontWeight.light,
-    size: '96px',
-    lineHeight: 1.167,
-    letterSpacing: '-1.5px',
+export const headingsNew = {
+  title1: buildResponsiveVariant({
+    weight: fontWeight.medium,
+    size: '80px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
-  h2: buildResponsiveVariant({
-    weight: fontWeight.light,
-    size: '60px',
-    lineHeight: 1.2,
-    letterSpacing: '-0.5px',
+  title1_adaptive: buildResponsiveVariant({
+    weight: fontWeight.medium,
+    size: '64px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
-  h3: buildResponsiveVariant({
-    weight: fontWeight.normal,
+  title1_mobile: buildResponsiveVariant({
+    weight: fontWeight.medium,
+    size: '32px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
+  }),
+  heading1: buildResponsiveVariant({
+    weight: fontWeight.medium,
+    size: '64px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
+  }),
+  heading2: buildResponsiveVariant({
+    weight: fontWeight.medium,
+    size: '32px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
+  }),
+  heading1_adaptive: buildResponsiveVariant({
+    weight: fontWeight.medium,
     size: '48px',
-    lineHeight: 1.167,
-    letterSpacing: '0px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
-  h4: buildResponsiveVariant({
-    weight: fontWeight.normal,
-    size: '34px',
-    lineHeight: 1.235,
-    letterSpacing: '0.25px',
-  }),
-  h5: buildResponsiveVariant({
-    weight: fontWeight.normal,
+  heading2_adaptive: buildResponsiveVariant({
+    weight: fontWeight.medium,
     size: '24px',
-    lineHeight: 1.334,
-    letterSpacing: '0px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
-  h6: buildResponsiveVariant({
+  heading1_mobile: buildResponsiveVariant({
     weight: fontWeight.medium,
-    size: '20px',
-    lineHeight: 1.6,
-    letterSpacing: '0.15px',
+    size: '24px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
-  subtitle1: buildResponsiveVariant({
-    weight: fontWeight.normal,
+  heading2_mobile: buildResponsiveVariant({
+    weight: fontWeight.medium,
     size: '16px',
-    lineHeight: 1.75,
-    letterSpacing: '0.15px',
-  }),
-  subtitle2: buildResponsiveVariant({
-    weight: fontWeight.medium,
-    size: '14px',
-    lineHeight: 1.57,
-    letterSpacing: '0.1px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
 };
 
-export const paragraphs = {
-  body1: buildResponsiveVariant({
+export const paragraphsNew = {
+  base: buildResponsiveVariant({
     weight: fontWeight.normal,
-    size: '20px',
-    lineHeight: 1.5,
-    letterSpacing: '0.15px',
+    size: '32px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
-  body2: buildResponsiveVariant({
+  base_adaptive: buildResponsiveVariant({
+    weight: fontWeight.normal,
+    size: '24px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
+  }),
+  base_mobile: buildResponsiveVariant({
     weight: fontWeight.normal,
     size: '16px',
-    lineHeight: 1.43,
-    letterSpacing: '0.15px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
-  body3: buildResponsiveVariant({
+  s: buildResponsiveVariant({
     weight: fontWeight.normal,
-    size: '14px',
-    lineHeight: 1.25,
-    letterSpacing: '0.15px',
+    size: '20px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
+  }),
+  s_adaptive: buildResponsiveVariant({
+    weight: fontWeight.normal,
+    size: '16px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
+  }),
+  s_mobile: buildResponsiveVariant({
+    weight: fontWeight.normal,
+    size: '12px',
+    lineHeight: 1,
+    letterSpacing: 'normal',
   }),
 };
 
@@ -208,8 +232,8 @@ export const buttons = {
 };
 
 export const variants = {
-  ...headings,
-  ...paragraphs,
+  ...headingsNew,
+  ...paragraphsNew,
   ...buttons,
   ...captions,
   ...overlines,

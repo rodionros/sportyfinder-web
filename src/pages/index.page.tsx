@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { Box } from '@effable/react';
 import { useTranslation } from 'next-i18next';
 
-import { MainLayout } from '@/layouts/main';
+import { MainLayout, useMobile } from '@/layouts/main';
 
-import { CookieConsent } from '@/features/cookie-consent';
-import { Demos } from '@/features/new-main-page/demos';
-import { Hero } from '@/features/new-main-page/hero';
-import { WhyNextplate } from '@/features/new-main-page/why-nextplate';
+import { Cards } from '@/features/main-page/cards';
+import { Features } from '@/features/main-page/features/features';
+import { Lead } from '@/features/main-page/lead/lead';
+import { Slogan } from '@/features/main-page/slogan/slogan';
+import { Sports } from '@/features/main-page/sports';
 
 import { PageSEO } from '@/shared/lib/meta';
 import { getTranslationsStaticProps } from '@/shared/lib/ssr';
@@ -15,25 +15,30 @@ import { EnhancedNextPage } from '@/shared/types/enhanced-next-page';
 import { SSGPageProps } from '@/shared/types/ssg-page-props';
 
 type IndexPageProps = SSGPageProps;
+export interface ImagesProps {
+  desktop: string;
+  mobile: string;
+}
 
 export const getStaticProps = getTranslationsStaticProps(['index', 'common']);
 
 const IndexPage: EnhancedNextPage<IndexPageProps> = () => {
-  const { t } = useTranslation(['index', 'common']);
+  const { t } = useTranslation('index');
+  const isMobile = useMobile();
+
+  const selectImage = (images: ImagesProps) => {
+    return isMobile ? images.mobile : images.desktop;
+  };
 
   return (
     <>
       <PageSEO title={t('SEO_TITLE')} description={t('SEO_DESCRIPTION')} />
 
-      <CookieConsent />
-
-      <Box display="flex" flexDirection="column" width="100%">
-        <Hero />
-
-        <WhyNextplate />
-
-        <Demos />
-      </Box>
+      <Lead selectImage={selectImage} />
+      <Slogan />
+      <Cards selectImage={selectImage} />
+      <Features />
+      <Sports />
     </>
   );
 };

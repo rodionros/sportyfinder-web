@@ -11,6 +11,48 @@ const iconMap = {
   system: RiComputerLine,
 };
 
+// export const ChangeTheme = () => {
+//   // eslint-disable-next-line @typescript-eslint/unbound-method
+//   const { mode, setMode } = useEffableTheme('ChangeTheme');
+//
+//   const Icon = iconMap[mode];
+//
+//   return (
+//     <DropdownMenu.Root>
+//       <DropdownMenu.Trigger asChild>
+//         <Button variant="text" startIcon={<Icon />}>
+//           {capitalize(mode)}
+//         </Button>
+//       </DropdownMenu.Trigger>
+//
+//       <DropdownMenu.Portal>
+//         <DropdownMenu.Content>
+//           <DropdownMenu.RadioGroup value={mode} onValueChange={(value) => setMode(value as typeof mode)}>
+//             <DropdownMenu.RadioItem value="light">
+//               <DropdownMenu.LeftAdornment>
+//                 <iconMap.light />
+//               </DropdownMenu.LeftAdornment>
+//               Light
+//             </DropdownMenu.RadioItem>
+//             <DropdownMenu.RadioItem value="dark">
+//               <DropdownMenu.LeftAdornment>
+//                 <iconMap.dark />
+//               </DropdownMenu.LeftAdornment>
+//               Dark
+//             </DropdownMenu.RadioItem>
+//             <DropdownMenu.RadioItem value="system">
+//               <DropdownMenu.LeftAdornment>
+//                 <iconMap.system />
+//               </DropdownMenu.LeftAdornment>
+//               System
+//             </DropdownMenu.RadioItem>
+//           </DropdownMenu.RadioGroup>
+//         </DropdownMenu.Content>
+//       </DropdownMenu.Portal>
+//     </DropdownMenu.Root>
+//   );
+// };
+
 export const ChangeTheme = () => {
   // eslint-disable-next-line @typescript-eslint/unbound-method
   const { mode, setMode } = useEffableTheme('ChangeTheme');

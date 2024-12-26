@@ -9,6 +9,7 @@ const config = {
   i18n: {
     defaultLocale,
     locales: supportedLanguages,
+    localeDetection: false,
   },
   localePath: path.resolve('./public/locales'),
 };

@@ -1,4 +1,10 @@
 {
+  "HEADER_ABOUT": "about us",
+  "HEADER_HOW-IT-WORKS": "how it works",
+  "HEADER_APP": "get app",
+
+  "FOOTER_PRIVACY": "privacy policy",
+
   "LAST_UPDATE": "Updated",
   "COOKIE_CONSENT_TITLE": "This website uses <0>cookies</0> to ensure you get the best experience on our website.",
   "COOKIE_CONSENT_ACTION": "Got it!",
