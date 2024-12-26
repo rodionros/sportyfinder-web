@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { useTranslation } from 'next-i18next';
-import Sportyfinder from 'public/static/images/logo-desktop-white.svg';
 import Tg from 'public/static/images/tg-desk-white.svg';
 import Vk from 'public/static/images/vk-desk-white.svg';
 
-import { Footer, FooterLink } from '@/layouts/main/components/main-footer/main-footer.styled';
+import { Footer, FooterLink, FooterLogo } from '@/layouts/main/components/main-footer/main-footer.styled';
 
 import { LocaleToggler } from '@/features/locale-toggler';
 
@@ -15,7 +14,7 @@ export const MainFooter = () => {
 
   return (
     <Footer>
-      <Sportyfinder />
+      <FooterLogo />
 
       <LocaleToggler />
 

@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
+import { breakpoints } from '@/shared/design/media';
 import { variants } from '@/shared/design/tokens/typography';
 
 export const InfoBlock = styled.li({
@@ -8,11 +9,11 @@ export const InfoBlock = styled.li({
   gap: '30px',
   textAlign: 'justify',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     gap: '20px',
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     gap: '16px',
   },
 });
@@ -22,11 +23,11 @@ export const PointedItem = styled.li({
   listStyleType: 'disc',
   marginLeft: '30px',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     ...variants.s_adaptive,
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     ...variants.s_mobile,
   },
 });

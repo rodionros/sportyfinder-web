@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
+import { breakpoints } from '@/shared/design/media';
 import { variants } from '@/shared/design/tokens/typography';
 
 export const InfoList = styled.ul({
@@ -10,12 +11,12 @@ export const InfoList = styled.ul({
   gap: '30px',
   position: 'relative',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     ...variants.heading2_adaptive,
     gap: '20px',
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     ...variants.heading2_mobile,
     gap: '16px',
   },

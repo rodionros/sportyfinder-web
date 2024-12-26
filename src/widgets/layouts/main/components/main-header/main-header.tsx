@@ -1,21 +1,21 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { useTranslation } from 'next-i18next';
-import Logo from 'public/static/images/S-desktop-white.svg';
+import MenuBtnWhite from 'public/static/images/menu-white.svg';
+import ThemeBtnWhite from 'public/static/images/theme-white.svg';
 
 import {
   Header,
   HeaderListItem,
   HeaderLogo,
   HeaderNavDesktop,
-  MenuButton,
   MobileList,
   MobileListItem,
   MobileMenu,
   StyledContainer,
-  ThemeButton,
 } from '@/layouts/main/components/main-header/main-header.styled';
 
+import { IconButton } from '@/shared/components/icon-button/icon-button.styled';
 import { StyledLink } from '@/shared/components/styled-link/styled-link.styled';
 import { StyledList } from '@/shared/components/styled-list/styled-list.styled';
 
@@ -34,7 +34,7 @@ export const MainHeader = (props: HeaderProps) => {
 
   return (
     <Header>
-      <HeaderLogo src={Logo} unoptimized alt="Sportyfinder logo" />
+      <HeaderLogo />
 
       <StyledContainer>
         <HeaderNavDesktop>
@@ -51,10 +51,15 @@ export const MainHeader = (props: HeaderProps) => {
           </StyledList>
         </HeaderNavDesktop>
 
-        <ThemeButton type="button" onClick={handleThemeButtonClick} />
-        {isMobile ? <MenuButton type="button" onClick={handleMenuButtonClick} /> : null}
+        <IconButton type="button" onClick={handleThemeButtonClick}>
+          <ThemeBtnWhite />
+        </IconButton>
+        {isMobile ? (
+          <IconButton type="button" onClick={handleMenuButtonClick}>
+            <MenuBtnWhite />
+          </IconButton>
+        ) : null}
       </StyledContainer>
-
       {isMobile && menuIsOpen && (
         <MobileMenu>
           <nav>

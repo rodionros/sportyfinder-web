@@ -1,11 +1,9 @@
-import Image from 'next/image';
 import styled from '@emotion/styled';
-import menuBtnWhite from 'public/static/images/menu-white.svg';
-import themeBtnWhite from 'public/static/images/theme-white.svg';
+import Logo from 'public/static/images/S-desktop-white.svg';
 
-import { IconButton } from '@/shared/components/icon-button/icon-button.styled';
 import { StyledList } from '@/shared/components/styled-list/styled-list.styled';
 import { TagWrapper } from '@/shared/components/tag-wrapper/tag-wrapper.styled';
+import { breakpoints } from '@/shared/design/media';
 import { variants } from '@/shared/design/tokens/typography';
 
 export const Header = styled.header({
@@ -17,11 +15,11 @@ export const Header = styled.header({
   zIndex: '2',
   margin: '40px auto 0',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '578px',
   },
 
-  '@media (max-width: 650px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '343px',
     backgroundColor: '#2a2b30',
     borderRadius: '16px',
@@ -30,16 +28,16 @@ export const Header = styled.header({
   },
 });
 
-export const HeaderLogo = styled(Image)({
-  width: 'auto',
+export const HeaderLogo = styled(Logo)({
+  width: '100%',
   maxWidth: '85px',
-  height: 'auto',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '68px',
+    height: '45px',
   },
 
-  '@media (max-width: 650px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '49px',
   },
 });
@@ -55,7 +53,7 @@ export const StyledContainer = styled.div({
   padding: '16px',
   margin: '0 auto',
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '80px',
     gap: '8px',
     backgroundColor: 'transparent',
@@ -65,7 +63,7 @@ export const StyledContainer = styled.div({
 });
 
 export const HeaderNavDesktop = styled.nav({
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     display: 'none',
   },
 });
@@ -78,20 +76,6 @@ export const HeaderListItem = styled(TagWrapper)({
     color: '#fff',
     backgroundColor: '#833fdc',
   },
-});
-
-export const ThemeButton = styled(IconButton)({
-  backgroundImage: `url(${themeBtnWhite.src})`,
-  backgroundSize: 'contain',
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-});
-
-export const MenuButton = styled(IconButton)({
-  backgroundImage: `url(${menuBtnWhite.src})`,
-  backgroundSize: 'contain',
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
 });
 
 export const MobileMenu = styled.div({

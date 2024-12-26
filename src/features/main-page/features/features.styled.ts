@@ -2,19 +2,20 @@ import Image from 'next/image';
 import styled from '@emotion/styled';
 
 import { StyledList } from '@/shared/components/styled-list/styled-list.styled';
+import { breakpoints } from '@/shared/design/media';
 import { variants } from '@/shared/design/tokens/typography';
 
 export const FeaturesSection = styled.section({
   width: '100%',
-  maxWidth: '1256px', // 1240px макет
+  maxWidth: '1256px',
   margin: '100px auto 220px',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '688px',
     margin: '60px auto 180px',
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '343px',
     margin: '120px auto',
   },
@@ -26,13 +27,13 @@ export const FeaturesHeading = styled.h2({
   ...variants.heading1,
   marginBottom: '60px',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '295px',
     ...variants.heading1_adaptive,
     marginBottom: '24px',
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '148px',
     ...variants.heading1_mobile,
   },
@@ -55,7 +56,7 @@ export const FeaturesListItem = styled.li<{ $features?: boolean }>((props) => ({
     display: 'none',
   },
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     padding: props.$features ? '16px 30px' : 'none',
 
     '&:nth-last-of-type(-n+2)': {
@@ -75,7 +76,7 @@ export const FeaturesListItem = styled.li<{ $features?: boolean }>((props) => ({
     },
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     padding: props.$features ? '14px 24px' : 'none',
 
     '&:nth-last-of-type(-n+2)': {
@@ -97,12 +98,12 @@ export const StyledFeaturesImage = styled(Image)({
   objectFit: 'cover',
   objectPosition: 'center',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     height: '56px',
     borderRadius: '42px',
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     height: '44px',
     borderRadius: '42px',
   },
@@ -112,11 +113,11 @@ export const FeatureText = styled.p({
   ...variants.base,
   lineHeight: '1',
 
-  '@media (max-width: 768px)': {
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
     ...variants.base_adaptive,
   },
 
-  '@media (max-width: 375px)': {
+  [`@media (max-width:${breakpoints.mobile}px)`]: {
     ...variants.base_mobile,
   },
 });
