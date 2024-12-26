@@ -13,6 +13,12 @@ export const pagesPath = {
   dashboard: {
     $url: (url?: { hash?: string }) => ({ pathname: '/dashboard' as const, hash: url?.hash }),
   },
+  privacy: {
+    $url: (url?: { hash?: string }) => ({ pathname: '/privacy' as const, hash: url?.hash }),
+  },
+  agreement: {
+    $url: (url?: { hash?: string }) => ({ pathname: '/agreement' as const, hash: url?.hash }),
+  },
   $url: (url?: { hash?: string }) => ({ pathname: '/' as const, hash: url?.hash }),
 };
 
@@ -24,12 +30,16 @@ export const staticPath = {
       $404_json: '/locales/en/404.json',
       auth_json: '/locales/en/auth.json',
       common_json: '/locales/en/common.json',
+      privacy_json: '/locales/en/privacy.json',
+      agreement_json: '/locales/en/agreement.json',
       index_json: '/locales/en/index.json',
     },
     ru: {
       $404_json: '/locales/ru/404.json',
       auth_json: '/locales/ru/auth.json',
       common_json: '/locales/ru/common.json',
+      privacy_json: '/locales/ru/privacy.json',
+      agreement_json: '/locales/ru/agreement.json',
       index_json: '/locales/ru/index.json',
     },
   },

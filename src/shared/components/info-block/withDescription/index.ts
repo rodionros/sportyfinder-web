@@ -1,0 +1,1 @@
+export { DescribedInfoBlock } from './describedInfoBlock';

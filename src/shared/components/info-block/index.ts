@@ -1,0 +1,1 @@
+export { PointedInfoBlock } from './pointedInfoBlock';

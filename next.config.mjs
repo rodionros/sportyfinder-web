@@ -2,7 +2,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 import { readFileSync } from 'node:fs';
-
 import bundleAnalyzer from '@next/bundle-analyzer';
 import { withSentryConfig } from '@sentry/nextjs';
 
@@ -123,7 +122,7 @@ const nextConfig = {
             value: 'SAMEORIGIN',
           },
 
-          // This directive helps protect user's privacy and might avoid leaking sensitive data in urls to 3rd parties (e.g: when loading a 3rd party asset)
+          // This directive helps protect user's privacy-page and might avoid leaking sensitive data in urls to 3rd parties (e.g: when loading a 3rd party asset)
           // See https://infosec.mozilla.org/guidelines/web_security#referrer-policy
           // See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
           // See https://scotthelme.co.uk/a-new-security-header-referrer-policy/

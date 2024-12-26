@@ -1,0 +1,234 @@
+{
+  "SEO_TITLE": "Privacy Policy",
+  "SEO_Description": "Sportyfinder. Privacy Policy",
+
+  "PRIVACY_TITLE": "Privacy Policy",
+  "PRIVACY_DATA": [
+    {
+      "heading": "General Provisions",
+      "description": "This privacy policy for the processing of personal data is compiled in accordance with the requirements of Federal Law No. 152-FZ “On Personal Data” dated July 27, 2006 (hereinafter referred to as the Personal Data Law) and defines the procedure for processing personal data and measures to ensure the security of personal data undertaken by Sporty Finder (hereinafter referred to as the Operator).",
+      "pointedList": [
+        "The Operator’s primary objective and condition for its activities is the observance of human and civil rights and freedoms during the processing of personal data, including the protection of the right to privacy, personal and family secrets.",
+        "This policy of the Operator regarding the processing of personal data (hereinafter referred to as the Policy) applies to all information that the Operator may receive about visitors to the website https://sportyfinder.ru."
+      ]
+    },
+    {
+      "heading": "Key Terms Used in the Policy",
+      "pointedList": [
+        "Automated Processing of Personal Data – Processing of personal data using computing technology.",
+        "Blocking of Personal Data – Temporary suspension of the processing of personal data (except in cases where processing is necessary for the clarification of personal data).",
+        "Website – A collection of graphical and informational materials, as well as software and databases, ensuring their availability on the Internet at the network address https://sportyfinder.ru.",
+        "Personal Data Information System – A collection of personal data contained in databases and the informational technologies and technical means that ensure their processing.",
+        "Depersonalization of Personal Data – Actions resulting in the impossibility of determining, without the use of additional information, the ownership of personal data by a specific User or other subject of personal data.",
+        "Processing of Personal Data – Any action (operation) or set of actions (operations) performed with personal data using automation tools or without such tools, including collection, recording, systematization, accumulation, storage, clarification (updating, modification), retrieval, usage, transfer (distribution, provision, access), depersonalization, blocking, deletion, and destruction of personal data.",
+        "Operator – A state body, municipal body, legal or physical entity that independently or jointly with others organizes and/or carries out the processing of personal data, as well as determines the purposes of processing personal data, the composition of personal data to be processed, and actions (operations) performed with personal data.",
+        "Personal Data – Any information directly or indirectly related to an identified or identifiable User of the website https://sportyfinder.ru.",
+        "Personal Data Authorized by the Subject for Dissemination – Personal data made accessible to an unlimited number of individuals by the subject of personal data by granting consent for processing such data in accordance with the procedure established by the Personal Data Law (hereinafter referred to as \"personal data authorized for dissemination\").",
+        "User – Any visitor to the website https://sportyfinder.ru.",
+        "Provision of Personal Data – Actions aimed at disclosing personal data to a specific person or a specific group of persons.",
+        "Distribution of Personal Data – Any actions aimed at disclosing personal data to an undefined group of persons (transfer of personal data) or at making personal data accessible to an unlimited group of persons, including publication of personal data in mass media, placement in information and telecommunication networks, or granting access to personal data in any other way.",
+        "Cross-Border Transfer of Personal Data – Transfer of personal data to the territory of a foreign state, to the authority of a foreign state, to a foreign individual, or to a foreign legal entity.",
+        "Destruction of Personal Data – Any actions resulting in the irreversible destruction of personal data, rendering it impossible to restore the content of personal data in the personal data information system and/or resulting in the destruction of physical media containing personal data."
+      ]
+    },
+    {
+      "heading": "Key Rights and Responsibilities of the Operator",
+      "pointedWithDashed": [
+        [
+          "The Operator has the right to:",
+          "Receive accurate information and/or documents containing personal data from the subject of personal data.",
+          "Continue processing personal data without the consent of the subject of personal data if the subject withdraws their consent for processing or submits a request to stop processing, provided there are grounds specified in the Personal Data Law.",
+          "Independently determine the composition and list of measures necessary and sufficient to fulfill the obligations stipulated by the Personal Data Law and regulations adopted in accordance with it unless otherwise provided by the Personal Data Law or other federal laws."
+        ],
+        [
+          "The Operator is obligated to:",
+          "Provide the subject of personal data with information regarding the processing of their personal data upon request.",
+          "Organize the processing of personal data in accordance with the current legislation of the Russian Federation.",
+          "Respond to inquiries and requests from subjects of personal data and their legal representatives in accordance with the requirements of the Personal Data Law.",
+          "Inform the authorized body for the protection of the rights of personal data subjects about necessary information upon request within 10 days from the date of receiving such a request.",
+          "Publish or otherwise ensure unrestricted access to this Policy regarding the processing of personal data.",
+          "Take legal, organizational, and technical measures to protect personal data from unauthorized or accidental access, destruction, modification, blocking, copying, provision, distribution, or any other unauthorized actions concerning personal data.",
+          "Cease the transfer (distribution, provision, access) of personal data, stop processing, and destroy personal data in the manner and cases stipulated by the Personal Data Law.",
+          "Fulfill other obligations as provided by the Personal Data Law."
+        ]
+      ]
+    },
+    {
+      "heading": "Key Rights and Responsibilities of Personal Data Subjects",
+      "pointedWithDashed": [
+        [
+          "Personal data subjects have the right to:",
+          "Receive information regarding the processing of their personal data, except in cases stipulated by federal laws. Information is provided to the personal data subject by the Operator in an accessible form and must not contain personal data related to other subjects unless there are lawful grounds for disclosing such data. The list of information and the procedure for obtaining it are established by the Personal Data Law.",
+          "Request the Operator to clarify, block, or destroy their personal data if the data is incomplete, outdated, inaccurate, unlawfully obtained, or unnecessary for the declared purpose of processing. Additionally, they may take measures prescribed by law to protect their rights.",
+          "Impose a condition of prior consent for the processing of their personal data for marketing purposes related to the promotion of goods, works, or services.",
+          "Withdraw their consent for the processing of personal data and submit a request to stop the processing of personal data.",
+          "Appeal to the authorized body for the protection of personal data subjects’ rights or to a court against unlawful actions or omissions by the Operator in the processing of their personal data.",
+          "Exercise other rights as provided by the legislation of the Russian Federation."
+        ],
+        [
+          "Personal data subjects are obligated to:",
+          "Provide accurate information about themselves to the Operator.",
+          "Notify the Operator of updates (corrections, changes) to their personal data."
+        ],
+        [
+          "Individuals who provide false information about themselves or information about another personal data subject without the latter's consent bear responsibility in accordance with the legislation of the Russian Federation."
+        ]
+      ]
+    },
+    {
+      "heading": "Principles of Personal Data Processing",
+      "pointedList": [
+        "Personal data processing is carried out on a lawful and fair basis.",
+        "Processing is limited to achieving specific, predefined, and legitimate purposes. The processing of personal data that is incompatible with the purposes of its collection is not allowed.",
+        "Combining databases containing personal data that are processed for purposes incompatible with each other is not permitted.",
+        "Only personal data relevant to the purposes of processing are subject to processing.",
+        "The content and volume of personal data processed must correspond to the declared purposes of processing. The processing of excessive personal data relative to the declared purposes is not allowed.",
+        "Personal data must be accurate, sufficient, and, where necessary, kept up-to-date concerning the purposes of processing. The Operator takes the necessary measures, or ensures that such measures are taken, to delete or clarify incomplete or inaccurate data.",
+        "Personal data is stored in a form that allows the identification of the subject of personal data for no longer than the purposes of data processing require unless a federal law or contract (in which the subject is a party, beneficiary, or guarantor) stipulates otherwise. Personal data that has been processed is destroyed or anonymized upon achieving the purposes of processing or if there is no longer a need to achieve these purposes, unless otherwise provided by federal law."
+      ]
+    },
+    {
+      "heading": "Conditions for Processing Personal Data",
+      "pointedList": [
+        "Personal data is processed with the consent of the subject of personal data.",
+        "Processing is necessary to achieve purposes provided for by an international treaty of the Russian Federation or by law, or to perform the functions, powers, and obligations imposed on the Operator by Russian legislation.",
+        "Processing is necessary for the administration of justice, execution of a court decision, or enforcement of an act issued by another authorized body or official in accordance with Russian legislation on enforcement proceedings.",
+        "Processing is necessary for the performance of a contract to which the personal data subject is a party, beneficiary, or guarantor, or for the conclusion of a contract initiated by the personal data subject or a contract under which the subject will act as a beneficiary or guarantor.",
+        "Processing is necessary for the realization of the rights and legitimate interests of the Operator or third parties, or for achieving socially significant purposes, provided this does not violate the rights and freedoms of the personal data subject.",
+        "Processing is carried out for personal data made publicly accessible by the subject or at their request (hereinafter referred to as \"publicly accessible personal data\").",
+        "Processing is carried out for personal data that must be published or disclosed under federal law."
+      ]
+    },
+    {
+      "heading": "Procedure for Collection, Storage, Transfer, and Other Types of Personal Data Processing",
+      "description": "The security of personal data processed by the Operator is ensured through the implementation of legal, organizational, and technical measures necessary to fully comply with the requirements of applicable legislation in the field of personal data protection.",
+      "pointedList": [
+        "The Operator ensures the confidentiality of personal data and takes all possible measures to prevent unauthorized access.",
+        "Personal data of the User will never be transferred to third parties under any circumstances, except as required by applicable legislation or with the explicit consent of the personal data subject for transferring data to a third party to fulfill obligations under a civil-law contract.",
+        "In case of inaccuracies in personal data, the User can update them by sending a notification to the Operator's email address at support@sportyfinder.ru with the subject line \"Updating Personal Data.\"",
+        "The period of personal data processing is determined by the achievement of the purposes for which the personal data was collected unless otherwise stipulated by a contract or applicable law. The User can withdraw their consent to the processing of personal data at any time by sending a notification to the Operator's email address at support@sportyfinder.ru with the subject line \"Withdrawal of Consent for Personal Data Processing.\"",
+        "All information collected by third-party services, including payment systems, communication tools, and other service providers, is stored and processed by those entities in accordance with their User Agreements and Privacy Policies. The personal data subject should familiarize themselves with these documents. The Operator is not responsible for the actions of third parties, including the service providers mentioned in this clause.",
+        "Restrictions imposed by the personal data subject on the transfer (except granting access), processing, or conditions of processing (except granting access) of personal data authorized for dissemination do not apply in cases where personal data is processed for state, public, or other public interests as defined by Russian legislation.",
+        "The Operator ensures the confidentiality of personal data during its processing.",
+        "Personal data is stored in a manner that allows the identification of the personal data subject for no longer than required to achieve the purposes of processing unless a longer retention period is stipulated by federal law or a contract in which the personal data subject is a party, beneficiary, or guarantor.",
+        "The processing of personal data may cease upon achieving the purposes of processing, expiration of the subject's consent, withdrawal of consent by the subject, a request for termination of processing by the subject, or identification of unlawful processing of personal data."
+      ]
+    },
+    {
+      "heading": "List of Actions Performed by the Operator with Received Personal Data",
+      "pointedList": [
+        "The Operator collects, records, systematizes, accumulates, stores, updates (revises, modifies), retrieves, uses, transfers (distributes, provides, grants access to), anonymizes, blocks, deletes, and destroys personal data.",
+        "The Operator conducts automated processing of personal data, including obtaining and/or transferring the received information through information and telecommunication networks or without the use of such networks."
+      ]
+    },
+    {
+      "heading": "Final Provisions",
+      "pointedList": [
+        "The User may obtain any clarifications regarding questions related to the processing of their personal data by contacting the Operator via email at support@sportyfinder.ru.",
+        "This document will reflect any changes made to the Operator's personal data processing policy. The Policy remains in effect indefinitely until it is replaced by a new version.",
+        "The current version of the Policy is freely available on the Internet at https://sportyfinder.ru/privacy."
+      ]
+    }
+  ],
+
+
+  "PRIVACY_COMMON_HEADING": "General Provisions",
+  "PRIVACY_COMMON_DESCRIPTION": "This privacy policy for the processing of personal data is compiled in accordance with the requirements of Federal Law No. 152-FZ “On Personal Data” dated July 27, 2006 (hereinafter referred to as the Personal Data Law) and defines the procedure for processing personal data and measures to ensure the security of personal data undertaken by Sporty Finder (hereinafter referred to as the Operator).",
+
+  "PRIVACY_COMMON_P-LIST_1": "The Operator’s primary objective and condition for its activities is the observance of human and civil rights and freedoms during the processing of personal data, including the protection of the right to privacy, personal and family secrets.",
+  "PRIVACY_COMMON_P-LIST_2": "This policy of the Operator regarding the processing of personal data (hereinafter referred to as the Policy) applies to all information that the Operator may receive about visitors to the website https://sportyfinder.ru.",
+
+
+  "PRIVACY_TERMS_HEADING": "Key Terms Used in the Policy",
+  "PRIVACY_TERMS_P-LIST_1": "Automated Processing of Personal Data – Processing of personal data using computing technology.",
+  "PRIVACY_TERMS_P-LIST_2": "Blocking of Personal Data – Temporary suspension of the processing of personal data (except in cases where processing is necessary for the clarification of personal data).",
+  "PRIVACY_TERMS_P-LIST_3": "Website – A collection of graphical and informational materials, as well as software and databases, ensuring their availability on the Internet at the network address https://sportyfinder.ru.",
+  "PRIVACY_TERMS_P-LIST_4": "Personal Data Information System – A collection of personal data contained in databases and the informational technologies and technical means that ensure their processing.",
+  "PRIVACY_TERMS_P-LIST_5": "Depersonalization of Personal Data – Actions resulting in the impossibility of determining, without the use of additional information, the ownership of personal data by a specific User or other subject of personal data.",
+  "PRIVACY_TERMS_P-LIST_6": "Processing of Personal Data – Any action (operation) or set of actions (operations) performed with personal data using automation tools or without such tools, including collection, recording, systematization, accumulation, storage, clarification (updating, modification), retrieval, usage, transfer (distribution, provision, access), depersonalization, blocking, deletion, and destruction of personal data.",
+  "PRIVACY_TERMS_P-LIST_7": "Operator – A state body, municipal body, legal or physical entity that independently or jointly with others organizes and/or carries out the processing of personal data, as well as determines the purposes of processing personal data, the composition of personal data to be processed, and actions (operations) performed with personal data.",
+  "PRIVACY_TERMS_P-LIST_8": "Personal Data – Any information directly or indirectly related to an identified or identifiable User of the website https://sportyfinder.ru.",
+  "PRIVACY_TERMS_P-LIST_9": "Personal Data Authorized by the Subject for Dissemination – Personal data made accessible to an unlimited number of individuals by the subject of personal data by granting consent for processing such data in accordance with the procedure established by the Personal Data Law (hereinafter referred to as \"personal data authorized for dissemination\").",
+  "PRIVACY_TERMS_P-LIST_10": "User – Any visitor to the website https://sportyfinder.ru.",
+  "PRIVACY_TERMS_P-LIST_11": "Provision of Personal Data – Actions aimed at disclosing personal data to a specific person or a specific group of persons.",
+  "PRIVACY_TERMS_P-LIST_12": "Distribution of Personal Data – Any actions aimed at disclosing personal data to an undefined group of persons (transfer of personal data) or at making personal data accessible to an unlimited group of persons, including publication of personal data in mass media, placement in information and telecommunication networks, or granting access to personal data in any other way.",
+  "PRIVACY_TERMS_P-LIST_13": "Cross-Border Transfer of Personal Data – Transfer of personal data to the territory of a foreign state, to the authority of a foreign state, to a foreign individual, or to a foreign legal entity.",
+  "PRIVACY_TERMS_P-LIST_14": "Destruction of Personal Data – Any actions resulting in the irreversible destruction of personal data, rendering it impossible to restore the content of personal data in the personal data information system and/or resulting in the destruction of physical media containing personal data.",
+
+
+  "PRIVACY_OPERATOR_HEADING": "Key Rights and Responsibilities of the Operator",
+  "PRIVACY_OPERATOR_D-LIST1_HEADING": "The Operator has the right to:",
+  "PRIVACY_OPERATOR_D-LIST1_1": "Receive accurate information and/or documents containing personal data from the subject of personal data.",
+  "PRIVACY_OPERATOR_D-LIST1_2": "Continue processing personal data without the consent of the subject of personal data if the subject withdraws their consent for processing or submits a request to stop processing, provided there are grounds specified in the Personal Data Law.",
+  "PRIVACY_OPERATOR_D-LIST1_3": "Independently determine the composition and list of measures necessary and sufficient to fulfill the obligations stipulated by the Personal Data Law and regulations adopted in accordance with it unless otherwise provided by the Personal Data Law or other federal laws.",
+
+  "PRIVACY_OPERATOR_D-LIST2_HEADING": "The Operator is obligated to:",
+  "PRIVACY_OPERATOR_D-LIST2_1": "Provide the subject of personal data with information regarding the processing of their personal data upon request.",
+  "PRIVACY_OPERATOR_D-LIST2_2": "Organize the processing of personal data in accordance with the current legislation of the Russian Federation.",
+  "PRIVACY_OPERATOR_D-LIST2_3": "Respond to inquiries and requests from subjects of personal data and their legal representatives in accordance with the requirements of the Personal Data Law.",
+  "PRIVACY_OPERATOR_D-LIST2_4": "Inform the authorized body for the protection of the rights of personal data subjects about necessary information upon request within 10 days from the date of receiving such a request.",
+  "PRIVACY_OPERATOR_D-LIST2_5": "Publish or otherwise ensure unrestricted access to this Policy regarding the processing of personal data.",
+  "PRIVACY_OPERATOR_D-LIST2_6": "Take legal, organizational, and technical measures to protect personal data from unauthorized or accidental access, destruction, modification, blocking, copying, provision, distribution, or any other unauthorized actions concerning personal data.",
+  "PRIVACY_OPERATOR_D-LIST2_7": "Cease the transfer (distribution, provision, access) of personal data, stop processing, and destroy personal data in the manner and cases stipulated by the Personal Data Law.",
+  "PRIVACY_OPERATOR_D-LIST2_8": "Fulfill other obligations as provided by the Personal Data Law.",
+
+
+  "PRIVACY_SUBJECT_HEADING": "Key Rights and Responsibilities of Personal Data Subjects",
+  "PRIVACY_SUBJECT_D-LIST1_HEADING": "Personal data subjects have the right to:",
+  "PRIVACY_SUBJECT_D-LIST1_1": "Receive information regarding the processing of their personal data, except in cases stipulated by federal laws. Information is provided to the personal data subject by the Operator in an accessible form and must not contain personal data related to other subjects unless there are lawful grounds for disclosing such data. The list of information and the procedure for obtaining it are established by the Personal Data Law.",
+  "PRIVACY_SUBJECT_D-LIST1_2": "Request the Operator to clarify, block, or destroy their personal data if the data is incomplete, outdated, inaccurate, unlawfully obtained, or unnecessary for the declared purpose of processing. Additionally, they may take measures prescribed by law to protect their rights.",
+  "PRIVACY_SUBJECT_D-LIST1_3": "Impose a condition of prior consent for the processing of their personal data for marketing purposes related to the promotion of goods, works, or services.",
+  "PRIVACY_SUBJECT_D-LIST1_4": "Withdraw their consent for the processing of personal data and submit a request to stop the processing of personal data.",
+  "PRIVACY_SUBJECT_D-LIST1_5": "Appeal to the authorized body for the protection of personal data subjects’ rights or to a court against unlawful actions or omissions by the Operator in the processing of their personal data.",
+  "PRIVACY_SUBJECT_D-LIST1_6": "Exercise other rights as provided by the legislation of the Russian Federation.",
+
+  "PRIVACY_SUBJECT_D-LIST2_HEADING": "Personal data subjects are obligated to:",
+  "PRIVACY_SUBJECT_D-LIST2_1": "Provide accurate information about themselves to the Operator.",
+  "PRIVACY_SUBJECT_D-LIST2_2": "Notify the Operator of updates (corrections, changes) to their personal data.",
+
+  "PRIVACY_SUBJECT_D-LIST3_HEADING": "Individuals who provide false information about themselves or information about another personal data subject without the latter's consent bear responsibility in accordance with the legislation of the Russian Federation.",
+
+
+  "PRIVACY_PRINCIPLES_HEADING": "Principles of Personal Data Processing",
+  "PRIVACY_PRINCIPLES_P-LIST_1": "Personal data processing is carried out on a lawful and fair basis.",
+  "PRIVACY_PRINCIPLES_P-LIST_2": "Processing is limited to achieving specific, predefined, and legitimate purposes. The processing of personal data that is incompatible with the purposes of its collection is not allowed.",
+  "PRIVACY_PRINCIPLES_P-LIST_3": "Combining databases containing personal data that are processed for purposes incompatible with each other is not permitted.",
+  "PRIVACY_PRINCIPLES_P-LIST_4": "Only personal data relevant to the purposes of processing are subject to processing.",
+  "PRIVACY_PRINCIPLES_P-LIST_5": "The content and volume of personal data processed must correspond to the declared purposes of processing. The processing of excessive personal data relative to the declared purposes is not allowed.",
+  "PRIVACY_PRINCIPLES_P-LIST_6": "Personal data must be accurate, sufficient, and, where necessary, kept up-to-date concerning the purposes of processing. The Operator takes the necessary measures, or ensures that such measures are taken, to delete or clarify incomplete or inaccurate data.",
+  "PRIVACY_PRINCIPLES_P-LIST_7": "Personal data is stored in a form that allows the identification of the subject of personal data for no longer than the purposes of data processing require unless a federal law or contract (in which the subject is a party, beneficiary, or guarantor) stipulates otherwise. Personal data that has been processed is destroyed or anonymized upon achieving the purposes of processing or if there is no longer a need to achieve these purposes, unless otherwise provided by federal law.",
+
+
+  "PRIVACY_CONDITIONS_HEADING": "Conditions for Processing Personal Data",
+  "PRIVACY_CONDITIONS_P-LIST_1": "Personal data is processed with the consent of the subject of personal data.",
+  "PRIVACY_CONDITIONS_P-LIST_2": "Processing is necessary to achieve purposes provided for by an international treaty of the Russian Federation or by law, or to perform the functions, powers, and obligations imposed on the Operator by Russian legislation.",
+  "PRIVACY_CONDITIONS_P-LIST_3": "Processing is necessary for the administration of justice, execution of a court decision, or enforcement of an act issued by another authorized body or official in accordance with Russian legislation on enforcement proceedings.",
+  "PRIVACY_CONDITIONS_P-LIST_4": "Processing is necessary for the performance of a contract to which the personal data subject is a party, beneficiary, or guarantor, or for the conclusion of a contract initiated by the personal data subject or a contract under which the subject will act as a beneficiary or guarantor.",
+  "PRIVACY_CONDITIONS_P-LIST_5": "Processing is necessary for the realization of the rights and legitimate interests of the Operator or third parties, or for achieving socially significant purposes, provided this does not violate the rights and freedoms of the personal data subject.",
+  "PRIVACY_CONDITIONS_P-LIST_6": "Processing is carried out for personal data made publicly accessible by the subject or at their request (hereinafter referred to as \"publicly accessible personal data\").",
+  "PRIVACY_CONDITIONS_P-LIST_7": "Processing is carried out for personal data that must be published or disclosed under federal law.",
+
+
+  "PRIVACY_ORDER_HEADING": "Procedure for Collection, Storage, Transfer, and Other Types of Personal Data Processing",
+  "PRIVACY_ORDER_DESCRIPTION": "The security of personal data processed by the Operator is ensured through the implementation of legal, organizational, and technical measures necessary to fully comply with the requirements of applicable legislation in the field of personal data protection.",
+  "PRIVACY_ORDER_P-LIST_1": "The Operator ensures the confidentiality of personal data and takes all possible measures to prevent unauthorized access.",
+  "PRIVACY_ORDER_P-LIST_2": "Personal data of the User will never be transferred to third parties under any circumstances, except as required by applicable legislation or with the explicit consent of the personal data subject for transferring data to a third party to fulfill obligations under a civil-law contract.",
+  "PRIVACY_ORDER_P-LIST_3": "In case of inaccuracies in personal data, the User can update them by sending a notification to the Operator's email address at support@sportyfinder.ru with the subject line \"Updating Personal Data.\"",
+  "PRIVACY_ORDER_P-LIST_4": "The period of personal data processing is determined by the achievement of the purposes for which the personal data was collected unless otherwise stipulated by a contract or applicable law. The User can withdraw their consent to the processing of personal data at any time by sending a notification to the Operator's email address at support@sportyfinder.ru with the subject line \"Withdrawal of Consent for Personal Data Processing.\"",
+  "PRIVACY_ORDER_P-LIST_5": "All information collected by third-party services, including payment systems, communication tools, and other service providers, is stored and processed by those entities in accordance with their User Agreements and Privacy Policies. The personal data subject should familiarize themselves with these documents. The Operator is not responsible for the actions of third parties, including the service providers mentioned in this clause.",
+  "PRIVACY_ORDER_P-LIST_6": "Restrictions imposed by the personal data subject on the transfer (except granting access), processing, or conditions of processing (except granting access) of personal data authorized for dissemination do not apply in cases where personal data is processed for state, public, or other public interests as defined by Russian legislation.",
+  "PRIVACY_ORDER_P-LIST_7": "The Operator ensures the confidentiality of personal data during its processing.",
+  "PRIVACY_ORDER_P-LIST_8": "Personal data is stored in a manner that allows the identification of the personal data subject for no longer than required to achieve the purposes of processing unless a longer retention period is stipulated by federal law or a contract in which the personal data subject is a party, beneficiary, or guarantor.",
+  "PRIVACY_ORDER_P-LIST_9": "The processing of personal data may cease upon achieving the purposes of processing, expiration of the subject's consent, withdrawal of consent by the subject, a request for termination of processing by the subject, or identification of unlawful processing of personal data.",
+
+
+  "PRIVACY_ACTIONS_HEADING": "List of Actions Performed by the Operator with Received Personal Data",
+  "PRIVACY_ACTIONS_P-LIST_1": "The Operator collects, records, systematizes, accumulates, stores, updates (revises, modifies), retrieves, uses, transfers (distributes, provides, grants access to), anonymizes, blocks, deletes, and destroys personal data.",
+  "PRIVACY_ACTIONS_P-LIST_2": "The Operator conducts automated processing of personal data, including obtaining and/or transferring the received information through information and telecommunication networks or without the use of such networks.",
+
+
+  "PRIVACY_FINAL_HEADING": "Final Provisions",
+  "PRIVACY_FINAL_P-LIST_1": "The User may obtain any clarifications regarding questions related to the processing of their personal data by contacting the Operator via email at support@sportyfinder.ru.",
+  "PRIVACY_FINAL_P-LIST_2": "This document will reflect any changes made to the Operator's personal data processing policy. The Policy remains in effect indefinitely until it is replaced by a new version.",
+  "PRIVACY_FINAL_P-LIST_3": "The current version of the Policy is freely available on the Internet at https://sportyfinder.ru/privacy."
+}

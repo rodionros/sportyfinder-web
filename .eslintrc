@@ -65,8 +65,10 @@
     "max-len": "off",
     // Disabled, already handled by @typescript-eslint/no-unused-vars
     "no-unused-vars": 0,
+    "no-nested-ternary": "off",
     // @see https://ru.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
     "react/react-in-jsx-scope": "off",
+    "react/no-array-index-key": "off",
     // Don't enforce, let developer choose
     "react/jsx-props-no-spreading": "off",
     // Not using "noreferrer" is not a security risk, but "noopener" should always be used indeed
