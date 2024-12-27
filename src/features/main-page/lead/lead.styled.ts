@@ -1,33 +1,45 @@
-import Image from 'next/image';
 import styled from '@emotion/styled';
 
 import { breakpoints } from '@/shared/design/media';
 
 export const LeadSection = styled.section({
   width: '100%',
+  maxWidth: '1150px',
+  minHeight: '890px',
+  position: 'relative',
+  margin: '0 auto',
+
+  [`@media (max-width:${breakpoints.tablet}px)`]: {
+    minHeight: '760px',
+  },
+
   [`@media (max-width:${breakpoints.mobile}px)`]: {
+    minHeight: '527px',
     overflow: 'hidden',
   },
 });
 
-export const StyledLeadImage = styled(Image)({
+export const StyledLeadImage = styled.img({
   width: 'auto',
   height: 'auto',
-  display: 'block',
-  position: 'relative',
-  top: '-110px',
-  margin: '0 auto',
-  objectFit: 'cover',
-  objectPosition: 'center',
+  minHeight: '890px',
+  position: 'absolute',
+  top: '340px',
+  left: '48%',
+  transform: 'translate(-50%, -50%)',
+  objectFit: 'contain',
+  objectPosition: 'top',
+  zIndex: '-1',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
-    maxWidth: '768px',
+    minHeight: '600px',
+    top: '295px',
+    left: '48%',
   },
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
-    maxWidth: '652px',
     minHeight: '527px',
-    top: '0',
-    left: '-40%',
+    objectFit: 'cover',
+    top: '270px',
   },
 });

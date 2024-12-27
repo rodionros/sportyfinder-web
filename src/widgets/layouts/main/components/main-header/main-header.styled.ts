@@ -7,12 +7,12 @@ import { breakpoints } from '@/shared/design/media';
 import { variants } from '@/shared/design/tokens/typography';
 
 export const Header = styled.header({
-  width: '100%',
+  width: '95%',
   maxWidth: '1240px',
   display: 'flex',
   position: 'relative',
   alignItems: 'center',
-  zIndex: '2',
+  overflow: 'hidden',
   margin: '40px auto 0',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
@@ -20,25 +20,30 @@ export const Header = styled.header({
   },
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
-    maxWidth: '343px',
+    maxWidth: '500px',
     backgroundColor: '#2a2b30',
     borderRadius: '16px',
     padding: '16px',
     justifyContent: 'space-between',
+    marginTop: '20px',
   },
 });
 
 export const HeaderLogo = styled(Logo)({
-  width: '100%',
-  maxWidth: '85px',
+  width: '85px',
+  height: '56px',
+  marginRight: '25%',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
-    maxWidth: '68px',
+    width: '68px',
     height: '45px',
+    marginRight: '42px',
   },
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
-    maxWidth: '49px',
+    width: '49px',
+    height: '33px',
+    marginRight: '42px',
   },
 });
 
@@ -51,7 +56,7 @@ export const StyledContainer = styled.div({
   backgroundColor: '#2a2b30',
   borderRadius: '16px',
   padding: '16px',
-  margin: '0 auto',
+  margin: '0',
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '80px',
@@ -80,13 +85,14 @@ export const HeaderListItem = styled(TagWrapper)({
 
 export const MobileMenu = styled.div({
   width: '100%',
-  maxWidth: '343px',
+  maxWidth: '500px',
   position: 'absolute',
   top: '76px',
   left: '0',
   backgroundColor: '#2A2B30',
   borderRadius: '16px',
   padding: '16px',
+  zIndex: '10',
 });
 
 export const MobileList = styled(StyledList)({

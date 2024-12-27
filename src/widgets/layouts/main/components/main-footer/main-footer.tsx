@@ -16,14 +16,15 @@ export const MainFooter = () => {
     <Footer>
       <FooterLogo />
 
-      <LocaleToggler />
-
       <FooterLinksList $contacts>
+        <li>
+          <FooterLink href="/agreement">{t('FOOTER_AGREEMENT')}</FooterLink>
+        </li>
         <li>
           <FooterLink href="/privacy">{t('FOOTER_PRIVACY')}</FooterLink>
         </li>
         <li>
-          <FooterLink $email href="mailto:support@sportyfinder.ru" target="_blank">
+          <FooterLink href="mailto:support@sportyfinder.ru" is_email="true" target="_blank">
             support@sportyfinder.ru
           </FooterLink>
         </li>
@@ -41,6 +42,8 @@ export const MainFooter = () => {
           </FooterLink>
         </li>
       </FooterLinksList>
+
+      <LocaleToggler />
     </Footer>
   );
 };

@@ -6,24 +6,21 @@ import { variants } from '@/shared/design/tokens/typography';
 
 export const CardWrapper = styled.div({
   width: '100%',
-  maxWidth: '1030px',
+  maxWidth: '1070px',
   height: '100vh',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   position: 'sticky',
   top: '0',
-  margin: '220px auto 0',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
-    maxWidth: '688px',
-    marginTop: '180px',
+    maxWidth: '710px',
   },
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     height: '100vh',
     maxWidth: '343px',
-    marginTop: '150px',
   },
 });
 
@@ -61,7 +58,6 @@ export const CardInfo = styled.div<{ textLocation: string }>((props) => ({
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     ...variants.base_mobile,
     maxWidth: '220px',
-    minHeight: '413px',
     position: 'static',
     textAlign: 'center',
   },

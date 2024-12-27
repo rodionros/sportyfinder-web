@@ -19,7 +19,7 @@ export const Card = ({ i, text, image, textLocation, progress, range, targetScal
 
   return (
     <CardWrapper>
-      <CardContainer style={{ scale, top: `calc(-10% + ${i * 32}px)` }}>
+      <CardContainer style={{ scale, bottom: `calc(-10% + ${i * 32}px)` }}>
         <CardInfo textLocation={textLocation}>{text}</CardInfo>
         <StyledImage src={image} alt="image" fill unoptimized />
       </CardContainer>

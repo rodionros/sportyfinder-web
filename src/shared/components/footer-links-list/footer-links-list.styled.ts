@@ -9,6 +9,8 @@ export const FooterLinksList = styled(StyledList)<{
   $lang?: boolean;
   $contacts?: boolean;
 }>((props) => ({
+  flexWrap: 'wrap',
+
   [`@media (max-width:${breakpoints.tablet}px)`]: {
     margin: props.$contacts ? '18px auto 0' : props.$lang ? '0 189px 0 0' : '0',
     '&:nth-of-type(3)': {
