@@ -53,12 +53,15 @@ export const Sports = () => {
         <BlockDescription>{t('SPORTS_SUBTITLE')}</BlockDescription>
         <AppList>
           <li>
-            <StyledLink href="">
+            <StyledLink href="https://apps.apple.com/ru/app/sportyfinder/id6636485156?l=en-GB" target="_blank">
               <AppImage src={AppStore} alt="AppStore" />
             </StyledLink>
           </li>
           <li>
-            <StyledLink href="https://play.google.com/store/apps/details?id=com.sportyfinder&pcampaignid=web_share">
+            <StyledLink
+              href="https://play.google.com/store/apps/details?id=com.sportyfinder&pcampaignid=web_share"
+              target="_blank"
+            >
               <AppImage src={GooglePlay} alt="GooglePlay" />
             </StyledLink>
           </li>
