@@ -6,7 +6,7 @@ import { breakpoints } from '@/shared/design/media';
 import { variants } from '@/shared/design/tokens/typography';
 
 export const FeaturesSection = styled.section({
-  width: '100%',
+  width: '95%',
   maxWidth: '1256px',
   margin: '90px auto 220px',
 
