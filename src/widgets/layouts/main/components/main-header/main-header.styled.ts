@@ -12,7 +12,6 @@ export const Header = styled.header({
   display: 'flex',
   position: 'relative',
   alignItems: 'center',
-  overflow: 'hidden',
   margin: '40px auto 0',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
