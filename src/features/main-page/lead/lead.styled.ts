@@ -29,7 +29,6 @@ export const StyledLeadImage = styled.img({
   transform: 'translate(-50%, -50%)',
   objectFit: 'contain',
   objectPosition: 'top',
-  zIndex: '-1',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
     minHeight: '600px',

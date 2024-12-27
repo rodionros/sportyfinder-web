@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import { breakpoints } from '@/shared/design/media';
 
 export const CardsSection = styled.section({
-  width: '100%',
+  width: '95%',
   height: 'auto',
   display: 'flex',
   flexDirection: 'column',
