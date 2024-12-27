@@ -60,6 +60,7 @@ export const MainHeader = (props: HeaderProps) => {
           </IconButton>
         ) : null}
       </StyledContainer>
+
       {isMobile && menuIsOpen && (
         <MobileMenu>
           <nav>
