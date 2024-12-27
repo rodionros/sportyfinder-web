@@ -30,7 +30,7 @@ export const Footer = styled.footer({
 export const FooterLogo = styled(Sportyfinder)({
   width: '100%',
   maxWidth: '211px',
-  marginRight: '372px',
+  marginRight: '180px',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '185px',

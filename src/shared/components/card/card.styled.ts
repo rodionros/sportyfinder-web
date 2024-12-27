@@ -29,17 +29,23 @@ export const CardContainer = styled(motion.div)({
   minHeight: '531px',
   display: 'flex',
   position: 'relative',
-  backgroundSize: 'cover',
-  backgroundPosition: 'center',
   backgroundColor: '#2A2B30',
   borderRadius: '50px',
   overflow: 'hidden',
   margin: '0 auto',
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
+    flexDirection: 'column',
     minHeight: '413px',
-    padding: '64px 62px 0',
   },
+});
+
+export const CardImage = styled.img({
+  width: 'auto',
+  height: 'auto',
+  objectFit: 'cover',
+
+  [`@media (max-width:${breakpoints.mobile}px)`]: {},
 });
 
 export const CardInfo = styled.div<{ textLocation: string }>((props) => ({
@@ -58,7 +64,7 @@ export const CardInfo = styled.div<{ textLocation: string }>((props) => ({
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     ...variants.base_mobile,
     maxWidth: '220px',
-    position: 'static',
     textAlign: 'center',
+    inset: '64px 62px',
   },
 }));

@@ -1,7 +1,7 @@
 import React from 'react';
 import { MotionValue, useTransform } from 'framer-motion';
 
-import { CardContainer, CardInfo, CardWrapper } from '@/shared/components/card/card.styled';
+import { CardContainer, CardImage, CardInfo, CardWrapper } from '@/shared/components/card/card.styled';
 import { StyledImage } from '@/shared/components/styled-image/styled-image.styled';
 
 type CardProps = {
@@ -21,7 +21,7 @@ export const Card = ({ i, text, image, textLocation, progress, range, targetScal
     <CardWrapper>
       <CardContainer style={{ scale, bottom: `calc(-10% + ${i * 32}px)` }}>
         <CardInfo textLocation={textLocation}>{text}</CardInfo>
-        <StyledImage src={image} alt="image" fill unoptimized />
+        <CardImage src={image} alt="card-image" />
       </CardContainer>
     </CardWrapper>
   );

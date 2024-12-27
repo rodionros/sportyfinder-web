@@ -12,7 +12,7 @@ interface BgProps {
 }
 
 export const SportsSection = styled.section({
-  width: '100%',
+  width: '95%',
   maxWidth: '1030px',
   display: 'grid',
   gridTemplateColumns: 'repeat(2, minmax(334px, 1fr))',
