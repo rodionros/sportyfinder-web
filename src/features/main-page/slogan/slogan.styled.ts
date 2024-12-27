@@ -7,7 +7,7 @@ export const SloganSection = styled.section({
   width: '100%',
   maxWidth: '717px',
   textAlign: 'center',
-  margin: '50px auto 0',
+  margin: '64px auto 0',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '573px',
@@ -16,7 +16,7 @@ export const SloganSection = styled.section({
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '287px',
-    margin: '120px auto 0',
+    margin: '125px auto 0',
   },
 });
 
@@ -31,6 +31,7 @@ export const Heading = styled.h2({
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     ...variants.title1_mobile,
+    marginBottom: '16px',
   },
 });
 
@@ -42,6 +43,7 @@ export const Text = styled.p({
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
     ...variants.base_adaptive,
+    maxWidth: '379px',
   },
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {

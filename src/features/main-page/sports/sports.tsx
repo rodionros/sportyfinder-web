@@ -29,7 +29,7 @@ export const Sports = () => {
   const { t } = useTranslation('index');
 
   return (
-    <SportsSection id="app">
+    <SportsSection>
       <GridItemBg $bgColor="#2A2B30">
         <LogoWrapper>
           <LogoImage />
@@ -49,7 +49,7 @@ export const Sports = () => {
         </TagsList>
       </MiddleBlock>
       <ImageContainer src={basketball} alt="Баскетболист" />
-      <AppBlock $bgColor="#833FDC">
+      <AppBlock $bgColor="#833FDC" id="app">
         <BlockDescription>{t('SPORTS_SUBTITLE')}</BlockDescription>
         <AppList>
           <li>
@@ -58,11 +58,15 @@ export const Sports = () => {
             </StyledLink>
           </li>
           <li>
-            <AppImage src={GooglePlay} alt="GooglePlay" />
+            <StyledLink href="https://play.google.com/store/apps/details?id=com.sportyfinder&pcampaignid=web_share">
+              <AppImage src={GooglePlay} alt="GooglePlay" />
+            </StyledLink>
           </li>
-          <li>
-            <AppImage src={AppGallery} alt="AppGallery" />
-          </li>
+          {/* <li> */}
+          {/*   <StyledLink href=""> */}
+          {/*     <AppImage src={AppGallery} alt="AppGallery" /> */}
+          {/*   </StyledLink> */}
+          {/* </li> */}
         </AppList>
       </AppBlock>
     </SportsSection>

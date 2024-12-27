@@ -1,6 +1,6 @@
 import * as React from 'react';
-import leadMobile from '@/public/static/images/Main screen mobile.webp';
-import lead from '@/public/static/images/Main screen.webp';
+import LeadMobile from 'public/static/images/Main screen mobile.webp';
+import LeadDesktop from 'public/static/images/Main screen.webp';
 
 import { ImagesProps } from '@/pages/index.page';
 
@@ -11,8 +11,8 @@ interface LeadProps {
 }
 
 const leadImages = {
-  desktop: lead.src,
-  mobile: leadMobile.src,
+  desktop: LeadDesktop.src,
+  mobile: LeadMobile.src,
 };
 
 export const Lead = (props: LeadProps) => {
@@ -20,14 +20,7 @@ export const Lead = (props: LeadProps) => {
 
   return (
     <LeadSection>
-      <StyledLeadImage
-        src={selectImage(leadImages)}
-        width="1120"
-        height="905"
-        unoptimized
-        priority
-        alt="Sportyfinder"
-      />
+      <StyledLeadImage src={selectImage(leadImages)} alt="Sportyfinder" />
     </LeadSection>
   );
 };

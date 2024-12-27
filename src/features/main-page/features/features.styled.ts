@@ -8,16 +8,16 @@ import { variants } from '@/shared/design/tokens/typography';
 export const FeaturesSection = styled.section({
   width: '100%',
   maxWidth: '1256px',
-  margin: '100px auto 220px',
+  margin: '90px auto 220px',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '688px',
-    margin: '60px auto 180px',
+    margin: '150px auto 180px',
   },
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '343px',
-    margin: '120px auto',
+    margin: '30px auto',
   },
 });
 

@@ -10,7 +10,7 @@ export const Footer = styled.footer({
   maxWidth: '1240px',
   display: 'flex',
   flexWrap: 'wrap',
-  justifyContent: 'space-between',
+  justifyContent: 'center',
   alignItems: 'center',
   margin: '0 auto 60px',
 

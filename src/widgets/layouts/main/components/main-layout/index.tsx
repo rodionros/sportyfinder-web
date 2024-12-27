@@ -20,7 +20,7 @@ export const MainLayout = (props: MainLayoutProps) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 375);
+    const handleResize = () => setIsMobile(window.innerWidth <= 650);
     handleResize();
     window.addEventListener('resize', handleResize);
     return () => {

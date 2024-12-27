@@ -1,7 +1,7 @@
 import { capitalize } from '@effable/misc';
 import { defaultTheme } from '@effable/react';
 
-export const APP_TITLE = 'nextplate';
+export const APP_TITLE = 'Sportyfinder';
 
 export const getAppTitle = (title?: string): string =>
   title ? `${title} - ${capitalize(APP_TITLE)}` : capitalize(APP_TITLE);

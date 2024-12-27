@@ -16,9 +16,10 @@ export const MainFooter = () => {
     <Footer>
       <FooterLogo />
 
-      <LocaleToggler />
-
       <FooterLinksList $contacts>
+        <li>
+          <FooterLink href="/agreement">{t('FOOTER_AGREEMENT')}</FooterLink>
+        </li>
         <li>
           <FooterLink href="/privacy">{t('FOOTER_PRIVACY')}</FooterLink>
         </li>
@@ -41,6 +42,8 @@ export const MainFooter = () => {
           </FooterLink>
         </li>
       </FooterLinksList>
+
+      <LocaleToggler />
     </Footer>
   );
 };

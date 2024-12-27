@@ -1,7 +1,8 @@
-export type Breakpoint = 'desktop' | 'laptop' | 'tablet' | 'mobile';
+export type Breakpoint = 'desktop' | 'laptop' | 'tablet' | 'mobile' | 'mobileMini';
 
 export const breakpoints: Record<Breakpoint, number> = {
-  mobile: 375,
+  mobileMini: 375,
+  mobile: 650,
   tablet: 768,
   laptop: 1024,
   desktop: 1440,
