@@ -25,7 +25,7 @@ export const CommonMetaTags = () => (
     />
 
     <link key="manifest" rel="manifest" href="/site.webmanifest" />
-    <link key="favicon" rel="icon" href="/static/images/favicon.ico" />
+    <link key="favicon" rel="icon" href="/static/images/favicon.svg" />
     <link key="icon-16x16" rel="icon" sizes="16x16" type="image/png" href="/static/images/favicon-16x16.png" />
     <link key="icon-32x32" rel="icon" sizes="32x32" type="image/png" href="/static/images/favicon-32x23.png" />
     <link
