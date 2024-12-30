@@ -17,7 +17,7 @@ export const FeaturesSection = styled.section({
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
     maxWidth: '343px',
-    margin: '30px auto',
+    margin: ' 0 auto 120px',
   },
 });
 

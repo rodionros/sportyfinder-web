@@ -11,7 +11,7 @@ export const SloganSection = styled.section({
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '573px',
-    margin: '30px auto 0',
+    margin: '30px auto 180px',
   },
 
   [`@media (max-width:${breakpoints.mobile}px)`]: {
