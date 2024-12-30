@@ -13,6 +13,7 @@ export const Header = styled.header({
   position: 'relative',
   alignItems: 'center',
   margin: '40px auto 0',
+  zIndex: '10',
 
   [`@media (max-width:${breakpoints.tablet}px)`]: {
     maxWidth: '578px',
@@ -80,6 +81,7 @@ export const HeaderListItem = styled(TagWrapper)({
     color: '#fff',
     backgroundColor: '#833fdc',
   },
+  cursor: 'pointer',
 });
 
 export const MobileMenu = styled.div({
