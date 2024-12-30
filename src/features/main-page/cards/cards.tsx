@@ -64,7 +64,7 @@ export const Cards = (props: CardsProps) => {
   const { t } = useTranslation('index');
   const { selectImage } = props;
   const containerRef = useRef<HTMLDivElement | null>(null);
-  const { scrollYProgress } = useScroll({
+  const { scrollY } = useScroll({
     target: containerRef,
     offset: ['start start', 'end end'],
   });
@@ -72,17 +72,15 @@ export const Cards = (props: CardsProps) => {
   return (
     <CardsSection id="how-it-works">
       {cardsInfo.map((card, index) => {
-        const targetScale = 1 - (cardsInfo.length - index) * 0.05;
         return (
           <Card
             key={card.id}
             i={index}
             text={t(card.text)}
             image={selectImage(card.images)}
-            progress={scrollYProgress}
+            progress={scrollY}
             textLocation={card.location}
             range={[index * 0.25, 1]}
-            targetScale={targetScale}
           />
         );
       })}
