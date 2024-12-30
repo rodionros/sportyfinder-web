@@ -92,7 +92,7 @@ export const staticPath = {
       circle_scatter_svg: '/static/images/circle-scatter.svg',
       favicon_16x16_png: '/static/images/favicon-16x16.png',
       favicon_32x32_png: '/static/images/favicon-32x32.png',
-      favicon_ico: '/static/images/favicon.ico',
+      favicon_svg: '/static/images/favicon.svg',
       feature_1_png: '/static/images/feature-1.png',
       feature_1_webp: '/static/images/feature-1.webp',
       feature_2_png: '/static/images/feature-2.png',
